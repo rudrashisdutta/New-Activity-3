@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <TextView
         android:id="@+id/Hello"
@@ -68,5 +68,19 @@
         app:layout_constraintTop_toBottomOf="@+id/Hello"
         app:layout_constraintVertical_bias="0.0"
         android:onClick="changeText"/>
+
+    <Button
+        android:id="@+id/nextPage"
+        style="@android:style/Widget.Holo.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:textColorHighlight="#000000"
+        android:textIsSelectable="false"
+        android:textStyle="normal|bold"
+        android:typeface="monospace"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

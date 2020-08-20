@@ -1,10 +1,12 @@
-package com.example.example;
+package com.example.example.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.example.R;
 
 public class MainActivity extends AppCompatActivity {
 
