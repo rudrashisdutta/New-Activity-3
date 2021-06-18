@@ -1,10 +1,13 @@
-package com.example.example;
+package com.example.example.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.example.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,5 +25,9 @@ public class MainActivity extends AppCompatActivity {
         else{
             newText.setText("EXAMPLE");
         }
+    }
+    public void newIntent(View view){
+        Intent i=new Intent(this,Page2Activity.class);
+        startActivity(i);
     }
 }
